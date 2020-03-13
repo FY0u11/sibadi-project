@@ -4,7 +4,7 @@ const router = require('../../routes')
 const passport = require('../../services/users/login.service')
 const send = require('koa-send')
 
-const staticDir = path.resolve(__dirname, '../../../../public')
+const staticDir = path.resolve(__dirname, '../../../../frontend/public')
 
 module.exports = app => {
   app.use(require('koa-helmet')())

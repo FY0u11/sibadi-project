@@ -6,12 +6,11 @@ volumes:
 services:
   web:
     image: node:12-alpine
-    tty: true
-    working_dir: /home/node/app
-    command: bash -c "npm i && npm run start"
+    working_dir: /home/node/app/backend
+    command: npm start
     volumes:
-      - ./backend:/home/node/app
-      - ./frontend/public:/home/node/public
+      - ./backend:/home/node/app/backend
+      - ./frontend:/home/node/app/frontend
     ports:
       - 80:3000
 
