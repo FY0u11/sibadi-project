@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing CheckboxInput component It should be properly rendered 1`] = `
+<DocumentFragment>
+  <div
+    class="form-check form-check-inline"
+  >
+    <input
+      checked=""
+      class="form-check-input"
+      id="test"
+      type="checkBox"
+    />
+    <label
+      class="form-check-label"
+      for="test"
+    >
+      test
+    </label>
+  </div>
+</DocumentFragment>
+`;

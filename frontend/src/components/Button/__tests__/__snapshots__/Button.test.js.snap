@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button component It should be properly rendered 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-dark"
+    style="margin-right: 20px;"
+  >
+    Click
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+.my-nav-container {
+  position: sticky;
+  top: 56px;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  width: 300px;
+  height: 100%;
+}
+
+.my-navbar-icon {
+  margin-right: 1.5rem;
+}

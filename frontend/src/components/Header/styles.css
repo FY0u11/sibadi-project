@@ -1,0 +1,30 @@
+.my-page-title {
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid grey;
+}
+
+.my-icon {
+  margin-left: 1rem;
+}
+
+.my-logout-icon {
+  display: inline;
+  margin-left: 2.5rem;
+}
+
+.my-cart-icon-container {
+  position: relative;
+}
+
+.my-cart-icon {
+  position: absolute;
+  top: 2px;
+}
+
+.my-cart-icon-number {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+}

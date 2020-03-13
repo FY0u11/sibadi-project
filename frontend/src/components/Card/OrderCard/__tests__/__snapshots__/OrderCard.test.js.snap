@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing OrderCard component It should be properly rendered if order cancelled: 2 1`] = `
+<DocumentFragment>
+  <div
+    class="my-expanding-card"
+    style="width: 500px;"
+  >
+    <div
+      class="card my-expanded"
+    >
+      <div
+        class="row no-gutters"
+      >
+        <div
+          class="col-md-4"
+        >
+          <img
+            alt="..."
+            class="card-img"
+            src="/uploads/path/1"
+          />
+        </div>
+        <div
+          class="col-md-8"
+        >
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              <div>
+                Order #42
+              </div>
+            </h5>
+            <div>
+              <div>
+                Total price: $ 60
+              </div>
+              <div>
+                Status: 
+                <strong
+                  class="text-danger"
+                >
+                  cancelled
+                </strong>
+              </div>
+              test body
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="my-expanded-body"
+    >
+      <div>
+        <h5>
+          Product list
+        </h5>
+        <ol>
+          <li>
+            product 1 
+            <span
+              class="small text-muted"
+            >
+              10 $
+            </span>
+          </li>
+          <li>
+            product 2 
+            <span
+              class="small text-muted"
+            >
+              20 $
+            </span>
+          </li>
+          <li>
+            product 3 
+            <span
+              class="small text-muted"
+            >
+              30 $
+            </span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing OrderCard component It should be properly rendered: 1 1`] = `
+<DocumentFragment>
+  <div
+    class="my-expanding-card"
+    style="width: 500px;"
+  >
+    <div
+      class="card my-expanded"
+    >
+      <div
+        class="row no-gutters"
+      >
+        <div
+          class="col-md-4"
+        >
+          <img
+            alt="..."
+            class="card-img"
+            src="/uploads/path/1"
+          />
+        </div>
+        <div
+          class="col-md-8"
+        >
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              <div>
+                Order #42
+                <button
+                  class="close text-danger"
+                >
+                  ×
+                </button>
+              </div>
+            </h5>
+            <div>
+              <div>
+                Total price: $ 60
+              </div>
+              <div>
+                Status: 
+                <strong
+                  class="text-success"
+                >
+                  created
+                </strong>
+              </div>
+              test body
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="my-expanded-body"
+    >
+      <div>
+        <h5>
+          Product list
+        </h5>
+        <ol>
+          <li>
+            product 1 
+            <span
+              class="small text-muted"
+            >
+              10 $
+            </span>
+          </li>
+          <li>
+            product 2 
+            <span
+              class="small text-muted"
+            >
+              20 $
+            </span>
+          </li>
+          <li>
+            product 3 
+            <span
+              class="small text-muted"
+            >
+              30 $
+            </span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

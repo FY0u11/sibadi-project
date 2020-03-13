@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Notifications component It should be properly rendered 1`] = `
+<DocumentFragment>
+  <div
+    class="my-notifications"
+  >
+    <div
+      class="card my-notification"
+    >
+      <h5
+        class="card-header bg-success text-light"
+      >
+        Test notification 1
+        <button
+          class="ml-2 mb-1 close"
+          type="button"
+        >
+          ×
+        </button>
+      </h5>
+      <div
+        class="card-body"
+      >
+        <p
+          class="card-text"
+        >
+          Test message 1
+        </p>
+        <button
+          class="btn btn-success text-light"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+    <div
+      class="card my-notification"
+    >
+      <h5
+        class="card-header bg-success text-light"
+      >
+        Test notification 2
+        <button
+          class="ml-2 mb-1 close"
+          type="button"
+        >
+          ×
+        </button>
+      </h5>
+      <div
+        class="card-body"
+      >
+        <p
+          class="card-text"
+        >
+          Test message 2
+        </p>
+        <button
+          class="btn btn-success text-light"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

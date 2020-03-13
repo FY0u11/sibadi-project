@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing OrderProductsList component It should be properly rendered 1`] = `
+<DocumentFragment>
+  <div>
+    <h5>
+      Product list
+    </h5>
+    <ol>
+      <li>
+        product 1 
+        <span
+          class="small text-muted"
+        >
+          100 $
+        </span>
+      </li>
+      <li>
+        product 2 
+        <span
+          class="small text-muted"
+        >
+          250 $
+        </span>
+      </li>
+    </ol>
+  </div>
+</DocumentFragment>
+`;

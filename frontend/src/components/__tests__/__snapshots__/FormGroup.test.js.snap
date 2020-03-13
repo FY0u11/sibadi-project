@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FormGroup component It should be properly rendered 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <label
+      for="test"
+    >
+      test label
+      <strong>
+         test message
+      </strong>
+    </label>
+    <input
+      class="form-control"
+      id="test"
+      placeholder="Enter test label"
+      type="text"
+      value="test value"
+    />
+  </div>
+</DocumentFragment>
+`;

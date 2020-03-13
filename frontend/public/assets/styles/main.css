@@ -1,0 +1,73 @@
+/* #################### */
+/* ## GENERAL STYLES ## */
+/* #################### */
+
+body {
+  padding-top: 56px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.my-content-wrapper {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.dark {
+  background: #343a40;
+  color: #ffffff;
+}
+
+.dark:hover {
+  background: #343a40;
+  color: #ffffff;
+}
+
+/* #################### */
+/* ## SCENES' STYLES ## */
+/* #################### */
+
+/* AUTHORIZATION */
+.form-group strong {
+  color: #ff9191;
+}
+
+/* MAIN */
+/* Profile */
+.my-profile-info {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.my-profile-info h5 {
+  line-height: 1.5em;
+}
+
+.my-edit {
+  color: grey;
+  cursor: pointer;
+}
+
+.my-edit:hover {
+  color: black;
+}
+
+.my-edit:active {
+  color: red;
+}

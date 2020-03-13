@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Card component It should be properly rendered with next and prev buttons both in disabled state: 3 1`] = `
+<DocumentFragment>
+  <div
+    class="my-page-nav"
+  >
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      &lt;
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      1
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      &gt;
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing Card component It should be properly rendered with next and prev buttons both in enabled state: 4 1`] = `
+<DocumentFragment>
+  <div
+    class="my-page-nav"
+  >
+    <button
+      class="btn btn-dark"
+      style="margin-right: 20px;"
+    >
+      &lt;
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      2
+    </button>
+    <button
+      class="btn btn-dark"
+      style="margin-right: 20px;"
+    >
+      &gt;
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing Card component It should be properly rendered with next button in disabled state: 2 1`] = `
+<DocumentFragment>
+  <div
+    class="my-page-nav"
+  >
+    <button
+      class="btn btn-dark"
+      style="margin-right: 20px;"
+    >
+      &lt;
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      2
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      &gt;
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing Card component It should be properly rendered with prev button in disabled state: 1 1`] = `
+<DocumentFragment>
+  <div
+    class="my-page-nav"
+  >
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      &lt;
+    </button>
+    <button
+      class="btn btn-dark"
+      disabled=""
+      style="margin-right: 20px;"
+    >
+      1
+    </button>
+    <button
+      class="btn btn-dark"
+      style="margin-right: 20px;"
+    >
+      &gt;
+    </button>
+  </div>
+</DocumentFragment>
+`;
